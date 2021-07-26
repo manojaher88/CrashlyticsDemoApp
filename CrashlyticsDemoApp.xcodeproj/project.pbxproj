@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		39B664403A9BDCFA7C3D37F5 /* Pods_CrashlyticsDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AAAC6A4D83291DF5B1B9DB /* Pods_CrashlyticsDemoApp.framework */; };
-		77BC963DFB176C98E7A7FD7C /* Pods_CrashlyticsWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B49904254A848158408E9F /* Pods_CrashlyticsWidgetExtension.framework */; };
-		AFD744A926AD9C7D00C929A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFD744A826AD9C7D00C929A2 /* GoogleService-Info.plist */; };
-		AFF38E1226AD52F4000DE489 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF38E1126AD52F4000DE489 /* WidgetKit.framework */; };
-		AFF38E1426AD52F4000DE489 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF38E1326AD52F4000DE489 /* SwiftUI.framework */; };
-		AFF38E1926AD52F5000DE489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF38E1826AD52F5000DE489 /* Assets.xcassets */; };
-		AFF38E1D26AD52F5000DE489 /* CrashlyticsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AFF38E1026AD52F4000DE489 /* CrashlyticsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF4FAB0E26AE6F3500F4BE5D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF38E1126AD52F4000DE489 /* WidgetKit.framework */; };
+		AF4FAB0F26AE6F3500F4BE5D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF38E1326AD52F4000DE489 /* SwiftUI.framework */; };
+		AF4FAB1226AE6F3500F4BE5D /* CrashlyticsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FAB1126AE6F3500F4BE5D /* CrashlyticsWidget.swift */; };
+		AF4FAB1426AE6F3600F4BE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4FAB1326AE6F3600F4BE5D /* Assets.xcassets */; };
+		AF4FAB1826AE6F3600F4BE5D /* CrashlyticsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF4FAB0D26AE6F3500F4BE5D /* CrashlyticsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFF589C826AC6B2F000C034B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF589C726AC6B2F000C034B /* ViewController.swift */; };
+		B120FB8B7896C8CD04A1A773 /* Pods_CrashlyticsWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B49904254A848158408E9F /* Pods_CrashlyticsWidgetExtension.framework */; };
 		F5B4F62820B1127B003C043D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4F62720B1127B003C043D /* AppDelegate.swift */; };
 		F5B4F62F20B1127E003C043D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B4F62E20B1127E003C043D /* Assets.xcassets */; };
 		F5B4F63220B1127E003C043D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B4F63020B1127E003C043D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AFF38E1B26AD52F5000DE489 /* PBXContainerItemProxy */ = {
+		AF4FAB1626AE6F3600F4BE5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F5B4F61C20B1127B003C043D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AFF38E0F26AD52F4000DE489;
+			remoteGlobalIDString = AF4FAB0C26AE6F3500F4BE5D;
 			remoteInfo = CrashlyticsWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AFF38E1D26AD52F5000DE489 /* CrashlyticsWidgetExtension.appex in Embed App Extensions */,
+				AF4FAB1826AE6F3600F4BE5D /* CrashlyticsWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,14 +50,14 @@
 		57AAAC6A4D83291DF5B1B9DB /* Pods_CrashlyticsDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A110165857E4ECD8031F19D9 /* Pods-CrashlyticsWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-CrashlyticsWidgetExtension/Pods-CrashlyticsWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 		A7F9E6C3FBCAA7533CC9BCE0 /* Pods-CrashlyticsDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-CrashlyticsDemoApp/Pods-CrashlyticsDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4FAB0D26AE6F3500F4BE5D /* CrashlyticsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CrashlyticsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4FAB1126AE6F3500F4BE5D /* CrashlyticsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsWidget.swift; sourceTree = "<group>"; };
+		AF4FAB1326AE6F3600F4BE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4FAB1526AE6F3600F4BE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFCC754126ADA5FE00EA021B /* widgetscript.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = widgetscript.sh; sourceTree = "<group>"; };
 		AFD5C5B126AD4AD5001BF8AA /* shellscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shellscript; sourceTree = SOURCE_ROOT; };
-		AFD744A826AD9C7D00C929A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "Firebase/Final_Plist/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		AFF38E1026AD52F4000DE489 /* CrashlyticsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CrashlyticsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF38E1126AD52F4000DE489 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		AFF38E1326AD52F4000DE489 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		AFF38E1826AD52F5000DE489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFF38E1A26AD52F5000DE489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF589C726AC6B2F000C034B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4B49904254A848158408E9F /* Pods_CrashlyticsWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B4F62420B1127B003C043D /* CrashlyticsDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,13 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFF38E0D26AD52F4000DE489 /* Frameworks */ = {
+		AF4FAB0A26AE6F3500F4BE5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF38E1426AD52F4000DE489 /* SwiftUI.framework in Frameworks */,
-				AFF38E1226AD52F4000DE489 /* WidgetKit.framework in Frameworks */,
-				77BC963DFB176C98E7A7FD7C /* Pods_CrashlyticsWidgetExtension.framework in Frameworks */,
+				AF4FAB0F26AE6F3500F4BE5D /* SwiftUI.framework in Frameworks */,
+				AF4FAB0E26AE6F3500F4BE5D /* WidgetKit.framework in Frameworks */,
+				B120FB8B7896C8CD04A1A773 /* Pods_CrashlyticsWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +100,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF4FAB1026AE6F3500F4BE5D /* CrashlyticsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AF4FAB1126AE6F3500F4BE5D /* CrashlyticsWidget.swift */,
+				AF4FAB1326AE6F3600F4BE5D /* Assets.xcassets */,
+				AF4FAB1526AE6F3600F4BE5D /* Info.plist */,
+			);
+			path = CrashlyticsWidget;
+			sourceTree = "<group>";
+		};
 		AFCC754026ADA5FE00EA021B /* shellscript */ = {
 			isa = PBXGroup;
 			children = (
 				AFCC754126ADA5FE00EA021B /* widgetscript.sh */,
 			);
 			path = shellscript;
-			sourceTree = "<group>";
-		};
-		AFF38E1526AD52F4000DE489 /* CrashlyticsWidget */ = {
-			isa = PBXGroup;
-			children = (
-				AFD744A826AD9C7D00C929A2 /* GoogleService-Info.plist */,
-				AFF38E1826AD52F5000DE489 /* Assets.xcassets */,
-				AFF38E1A26AD52F5000DE489 /* Info.plist */,
-			);
-			path = CrashlyticsWidget;
 			sourceTree = "<group>";
 		};
 		D775B1451949FEE084BAB07E /* Pods */ = {
@@ -134,7 +134,7 @@
 			children = (
 				AFCC754026ADA5FE00EA021B /* shellscript */,
 				F5B4F62620B1127B003C043D /* CrashlyticsDemoApp */,
-				AFF38E1526AD52F4000DE489 /* CrashlyticsWidget */,
+				AF4FAB1026AE6F3500F4BE5D /* CrashlyticsWidget */,
 				F5B4F62520B1127B003C043D /* Products */,
 				D775B1451949FEE084BAB07E /* Pods */,
 				3BD2BDD6EB6E90CA68E9F6C0 /* Frameworks */,
@@ -145,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				F5B4F62420B1127B003C043D /* CrashlyticsDemoApp.app */,
-				AFF38E1026AD52F4000DE489 /* CrashlyticsWidgetExtension.appex */,
+				AF4FAB0D26AE6F3500F4BE5D /* CrashlyticsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,15 +166,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFF38E0F26AD52F4000DE489 /* CrashlyticsWidgetExtension */ = {
+		AF4FAB0C26AE6F3500F4BE5D /* CrashlyticsWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFF38E1E26AD52F5000DE489 /* Build configuration list for PBXNativeTarget "CrashlyticsWidgetExtension" */;
+			buildConfigurationList = AF4FAB1926AE6F3600F4BE5D /* Build configuration list for PBXNativeTarget "CrashlyticsWidgetExtension" */;
 			buildPhases = (
-				594E0D7B4E7616AA3AA9FB1C /* [CP] Check Pods Manifest.lock */,
-				AFF38E0C26AD52F4000DE489 /* Sources */,
-				AFF38E0D26AD52F4000DE489 /* Frameworks */,
-				AFF38E0E26AD52F4000DE489 /* Resources */,
-				AFD744AD26AD9F7600C929A2 /* ShellScript */,
+				5F6D1E265431773D4D69E974 /* [CP] Check Pods Manifest.lock */,
+				AF4FAB0926AE6F3500F4BE5D /* Sources */,
+				AF4FAB0A26AE6F3500F4BE5D /* Frameworks */,
+				AF4FAB0B26AE6F3500F4BE5D /* Resources */,
+				AFB07ABD26AE787A00F53622 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -182,7 +182,7 @@
 			);
 			name = CrashlyticsWidgetExtension;
 			productName = CrashlyticsWidgetExtension;
-			productReference = AFF38E1026AD52F4000DE489 /* CrashlyticsWidgetExtension.appex */;
+			productReference = AF4FAB0D26AE6F3500F4BE5D /* CrashlyticsWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		F5B4F62320B1127B003C043D /* CrashlyticsDemoApp */ = {
@@ -199,7 +199,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AFF38E1C26AD52F5000DE489 /* PBXTargetDependency */,
+				AF4FAB1726AE6F3600F4BE5D /* PBXTargetDependency */,
 			);
 			name = CrashlyticsDemoApp;
 			productName = YahooWeatherApp;
@@ -212,12 +212,12 @@
 		F5B4F61C20B1127B003C043D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "MANOJ AHER";
 				TargetAttributes = {
-					AFF38E0F26AD52F4000DE489 = {
-						CreatedOnToolsVersion = 13.0;
+					AF4FAB0C26AE6F3500F4BE5D = {
+						CreatedOnToolsVersion = 12.5;
 					};
 					F5B4F62320B1127B003C043D = {
 						CreatedOnToolsVersion = 9.3;
@@ -238,18 +238,17 @@
 			projectRoot = "";
 			targets = (
 				F5B4F62320B1127B003C043D /* CrashlyticsDemoApp */,
-				AFF38E0F26AD52F4000DE489 /* CrashlyticsWidgetExtension */,
+				AF4FAB0C26AE6F3500F4BE5D /* CrashlyticsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AFF38E0E26AD52F4000DE489 /* Resources */ = {
+		AF4FAB0B26AE6F3500F4BE5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF38E1926AD52F5000DE489 /* Assets.xcassets in Resources */,
-				AFD744A926AD9C7D00C929A2 /* GoogleService-Info.plist in Resources */,
+				AF4FAB1426AE6F3600F4BE5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +286,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		594E0D7B4E7616AA3AA9FB1C /* [CP] Check Pods Manifest.lock */ = {
+		5F6D1E265431773D4D69E974 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +308,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFD744AD26AD9F7600C929A2 /* ShellScript */ = {
+		AFB07ABD26AE787A00F53622 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,10 +345,11 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFF38E0C26AD52F4000DE489 /* Sources */ = {
+		AF4FAB0926AE6F3500F4BE5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4FAB1226AE6F3500F4BE5D /* CrashlyticsWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,10 +365,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AFF38E1C26AD52F5000DE489 /* PBXTargetDependency */ = {
+		AF4FAB1726AE6F3600F4BE5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AFF38E0F26AD52F4000DE489 /* CrashlyticsWidgetExtension */;
-			targetProxy = AFF38E1B26AD52F5000DE489 /* PBXContainerItemProxy */;
+			target = AF4FAB0C26AE6F3500F4BE5D /* CrashlyticsWidgetExtension */;
+			targetProxy = AF4FAB1626AE6F3600F4BE5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -384,7 +384,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AFF38E1F26AD52F5000DE489 /* Debug */ = {
+		AF4FAB1A26AE6F3600F4BE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 470AED7817C70A59A90690E6 /* Pods-CrashlyticsWidgetExtension.debug.xcconfig */;
 			buildSettings = {
@@ -392,32 +392,26 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = WZ9YTK996P;
-				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CrashlyticsWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CrashlyticsWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 MANOJ AHER. All rights reserved.";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacksheep.widget.release;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AFF38E2026AD52F5000DE489 /* Release */ = {
+		AF4FAB1B26AE6F3600F4BE5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A110165857E4ECD8031F19D9 /* Pods-CrashlyticsWidgetExtension.release.xcconfig */;
 			buildSettings = {
@@ -425,25 +419,18 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = WZ9YTK996P;
-				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CrashlyticsWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CrashlyticsWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 MANOJ AHER. All rights reserved.";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacksheep.widget.release;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -567,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7F9E6C3FBCAA7533CC9BCE0 /* Pods-CrashlyticsDemoApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -577,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blacksheep.widget.release;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacksheep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0290D3109573E758D6D437E2 /* Pods-CrashlyticsDemoApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -598,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blacksheep.widget.release;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacksheep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -608,11 +597,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFF38E1E26AD52F5000DE489 /* Build configuration list for PBXNativeTarget "CrashlyticsWidgetExtension" */ = {
+		AF4FAB1926AE6F3600F4BE5D /* Build configuration list for PBXNativeTarget "CrashlyticsWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFF38E1F26AD52F5000DE489 /* Debug */,
-				AFF38E2026AD52F5000DE489 /* Release */,
+				AF4FAB1A26AE6F3600F4BE5D /* Debug */,
+				AF4FAB1B26AE6F3600F4BE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
