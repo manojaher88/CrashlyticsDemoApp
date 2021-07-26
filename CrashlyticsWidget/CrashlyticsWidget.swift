@@ -47,7 +47,11 @@ struct Provider: TimelineProvider {
             let entry = SimpleEntry(date: entryDate)
             entries.append(entry)
         }
-
+        
+        var value: Int!
+        let newValue = value + 5
+        print(newValue)
+        
         let timeline = Timeline(entries: entries, policy: .atEnd)
         completion(timeline)
     }

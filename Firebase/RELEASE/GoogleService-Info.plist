@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>889162935521-18aq9dt1paia87h8t4iqppdcgm3r8ogq.apps.googleusercontent.com</string>
+	<string>889162935521-l44h4fenq5vb1f1uffe45a6ce82tb0ki.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.889162935521-18aq9dt1paia87h8t4iqppdcgm3r8ogq</string>
+	<string>com.googleusercontent.apps.889162935521-l44h4fenq5vb1f1uffe45a6ce82tb0ki</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAQVCM9BflyheIzrXYSZAbNan7sXDWte-U</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.blacksheep.release</string>
+	<string>com.blacksheep.widget.release</string>
 	<key>PROJECT_ID</key>
 	<string>widgets-24ec5</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:889162935521:ios:2728a0bdd5816b3fc75ba0</string>
+	<string>1:889162935521:ios:833da46f858ed1c3c75ba0</string>
 </dict>
 </plist>
