@@ -3,10 +3,12 @@
 
 target 'CrashlyticsDemoApp' do
   use_frameworks!
-  pod "FirebaseCrashlytics", '8.1.0'
+  pod 'GoogleUtilities', '7.5.0'
+  pod "Firebase/Crashlytics", '8.1.1'
 end
 
 target 'CrashlyticsWidgetExtension' do
   use_frameworks!
-  pod "FirebaseCrashlytics", '8.1.0'
+  pod 'GoogleUtilities', '7.5.0'
+  pod "Firebase/Crashlytics", '8.1.1'
 end
